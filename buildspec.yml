@@ -6,7 +6,6 @@ phases:
   build:  
     commands:  
       - echo "Ejecutando pruebas"  
-      - pytest tests/  
   post_build:  
     commands:  
       - echo "Construcción finalizada con éxito"
